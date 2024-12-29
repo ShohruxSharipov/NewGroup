@@ -10,7 +10,9 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.newgroup.screens.Homepage
 import com.example.newgroup.screens.Registration
 import com.example.newgroup.ui.theme.NewGroupTheme
 
@@ -20,7 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             NewGroupTheme {
-                Registration()
+                Homepage()
             }
         }
     }

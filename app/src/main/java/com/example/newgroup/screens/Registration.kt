@@ -42,6 +42,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -72,7 +73,7 @@ fun Registration() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF489EE2))
+            .background(Color(0xFF2F97E9))
     ) {
 //        Image(
 //            painter = painterResource(id = R.drawable.img_1),
@@ -89,6 +90,7 @@ fun Registration() {
                 contentDescription = "logo",
                 modifier = Modifier.padding(24.dp)
             )
+//            Text(text = "INHA University in Tashkent", fontSize = 25.sp, fontWeight = FontWeight.ExtraBold, color = Color.White, modifier = Modifier.fillMaxWidth().padding(24.dp), textAlign = TextAlign.Center)
             Spacer(modifier = Modifier.height(20.dp))
             Card(
                 modifier = Modifier.padding(15.dp),
